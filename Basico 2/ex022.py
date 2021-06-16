@@ -1,0 +1,21 @@
+'''nome = input('Digite seu nome primeiro nome : ')
+sb = input('Digite seu sobre nome: ')
+NOME = nome.upper()
+SB = sb.upper()
+nome2 = nome.lower()
+sb2 = sb.lower()
+soma = nome+sb
+qt =len(soma)
+print('Seu nome em letras maiusculas {} {}'.format(NOME,SB))
+print('Seu nome em letras minisculas {} {}'.format(nome2,sb2))
+print('Seu primeiro nome tem {} letras'.format(len(nome)))
+print('Seu nome todo tem {} letras'.format(qt))'''
+nome = input('Digite seu nome completo: ')
+print('Seu nome em letras maiúsculas é {} '.format(nome.upper()))
+print('Seu nome em letras minúsculas é {}'.format(nome.lower()))
+sp = nome.split()
+soma = ''.join(sp)
+ct = len(soma)
+s = sp[0]
+print('Seu nome completo tem {} letras'.format(ct))
+print('Seu primeiro nome tem {} letras'.format(len(s)))
